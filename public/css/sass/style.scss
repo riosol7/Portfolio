@@ -1,0 +1,14 @@
+$navbarColor:#010230;
+
+header {
+    color:#f8f8ff;
+}
+#resume-body{
+    color:black;
+}
+.navbar-custom{
+    background-color: $navbarColor !important;
+}
+footer, a {
+    color: inherit;
+}

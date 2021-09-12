@@ -11,13 +11,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Main CSS -->
-    <link type='text/css' href="/style.css" rel="stylesheet"/>
+    <link type='text/css' href="/css/style.css" rel="stylesheet"/>
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/ba8144d24e.js" crossorigin="anonymous"></script>
     <!-- Scroll Reveal -->
     <script src="https://unpkg.com/scrollreveal"></script> 
     <!-- animate.style -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -131,7 +139,7 @@
                                         </footer>
                                     </div>
                                     <div class='modal-footer'>
-                                        <button type='button' class="btn btn-secondary" data-dismiss='modal'> close </button>
+                                        <button type='button' class="btn btn-dark" data-dismiss='modal'> close </button>
                                         <button type='button' class='btn btn-primary'><i class="far fa-file"></i> Download </button>
                                     </div>
                                 </div>
@@ -195,6 +203,7 @@
     <div class="container mt-5 mb-5 p-5">
         <div class='p-2 mb-4'><i class="fas fa-laptop-code fa-4x"></i> <h2 class='d-inline m-2'> Projects</h2></div>
         <div class='card-deck'>
+            <!-- Bookmarks Bar -->
             <div id='bBar' class="container card shadow" style="width: 20rem;">
                 <div class='card-body'>
                 <h5 class="card-title"> Bookmarks Bar</h5>
@@ -209,6 +218,7 @@
                     </div>
                 </div>
             </div>
+            <!-- tapRace -->
             <div id='tapRace' class="container card shadow" style="width: 20rem;">
                 <div class='card-body'>
                 <h5 class="card-title"> Tap Race</h5>
@@ -216,6 +226,7 @@
                 <a style='color:#343a40' href="/"> <i class="fab fa-github fa-2x"></i></a>
                 </div>
             </div> 
+            <!-- Project 2 -->
             <div id='project2' class="container card shadow" style="width: 20rem;">
                 <div class='card-body'>
                 <h5 class="card-title"> Project 2</h5>
@@ -261,6 +272,8 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
 <script>
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
@@ -397,10 +410,10 @@ sr.reveal('#project2', {
 <script>
     var nav = document.querySelector('nav');
     window.addEventListener('scroll', function () {
-      if (window.pageYOffset > 600) {
-        nav.classList.add('bg-secondary', 'shadow');
+      if (window.pageYOffset > 550) {
+        nav.classList.add('navbar-custom', 'shadow');
         } else {
-        nav.classList.remove('bg-secondary', 'shadow');
+        nav.classList.remove('navbar-custom', 'shadow');
         }
       });
     </script>
