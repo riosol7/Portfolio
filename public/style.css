@@ -6,3 +6,12 @@ header {
 #resume-body{
     color:black;
 }
+#progress-lvl{
+    --animate-duration: ;
+}
+.bg-secondary{
+    background-color: #010230 !important;
+}
+footer, a {
+    color: inherit;
+}
