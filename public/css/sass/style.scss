@@ -1,5 +1,4 @@
 //icon colorways:
-$navbarColor:#010230;
 $htmlColor:#f1662a;
 $cssColor:#4a90c3;
 $sassColor:#cd6799;
@@ -18,22 +17,30 @@ $stackColor:#f48024;
 
 //banner colors:
 $pink-custom:#df4b9f;
+$bannerColor:#010230;
+$resume-btn:#505050;
 
-
+//NAVBAR
+.navbar-custom{
+    background-color: $bannerColor !important;
+}
+//HEADER
 header {
     color:#f8f8ff;
+}
+//RESUME
+#resume-btn{
+    color:$pink-custom;
+}
+#resume-title{
+    color:$resume-btn;
 }
 #resume-body{
     color:black;
 }
-.navbar-custom{
-    background-color: $navbarColor !important;
-}
+//WHAT I DO
 .icon{
     padding-inline: 20px;  
-}
-.footer-icons{
-    color:inherit;
 }
 .html-bar{
     background-color: $htmlColor !important;
@@ -67,4 +74,16 @@ header {
 }
 .postgres-bar{
     background-color: $postgresColor !important;
+}
+//PROJECTS
+.projects{
+  
+}
+// FOOTER
+footer{
+    background-color: $bannerColor;
+    color:whitesmoke;
+}
+.footer-icons{
+    color:inherit;
 }

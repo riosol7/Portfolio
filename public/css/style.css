@@ -1,17 +1,20 @@
+.navbar-custom {
+  background-color: #010230 !important; }
+
 header {
   color: #f8f8ff; }
+
+#resume-btn {
+  color: #df4b9f; }
+
+#resume-title {
+  color: #505050; }
 
 #resume-body {
   color: black; }
 
-.navbar-custom {
-  background-color: #010230 !important; }
-
 .icon {
   padding-inline: 20px; }
-
-.footer-icons {
-  color: inherit; }
 
 .html-bar {
   background-color: #f1662a !important; }
@@ -45,3 +48,10 @@ header {
 
 .postgres-bar {
   background-color: #336691 !important; }
+
+footer {
+  background-color: #010230;
+  color: whitesmoke; }
+
+.footer-icons {
+  color: inherit; }
