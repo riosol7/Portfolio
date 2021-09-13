@@ -1,4 +1,24 @@
+//icon colorways:
 $navbarColor:#010230;
+$htmlColor:#f1662a;
+$cssColor:#4a90c3;
+$sassColor:#cd6799;
+$jsColor:#f7df1e;
+$nodeColor:#539e43;
+$reactColor:#45d8ff;
+$awsColor:#f89903;
+$pythonColor:#3775a8;
+$gitColor:#de4c36;
+$npmColor:#cb3837;
+$bootstrapColor:#563d7c;
+$mongoColor:#49a649;
+$sqlColor:#fdda43;
+$postgresColor:#336691;
+$stackColor:#f48024;
+
+//banner colors:
+$pink-custom:#df4b9f;
+
 
 header {
     color:#f8f8ff;
@@ -9,6 +29,42 @@ header {
 .navbar-custom{
     background-color: $navbarColor !important;
 }
-footer, a {
-    color: inherit;
+.icon{
+    padding-inline: 20px;  
+}
+.footer-icons{
+    color:inherit;
+}
+.html-bar{
+    background-color: $htmlColor !important;
+}
+.css-bar{
+    background-color: $cssColor !important;
+}
+.sass-bar{
+    background-color: $sassColor !important;
+}
+.js-bar{
+    background-color: $jsColor !important;
+}
+.react-bar{
+    background-color: $reactColor !important;
+}
+.bootstrap-bar{
+    background-color: $bootstrapColor !important;
+}
+.node-bar{
+    background-color: $nodeColor !important;
+}
+.python-bar{
+    background-color: $pythonColor !important;
+}
+.mongo-bar{
+    background-color: $mongoColor !important;
+}
+.sql-bar{
+    background-color: $sqlColor !important;
+}
+.postgres-bar{
+    background-color: $postgresColor !important;
 }

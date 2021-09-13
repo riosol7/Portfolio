@@ -7,5 +7,41 @@ header {
 .navbar-custom {
   background-color: #010230 !important; }
 
-footer, a {
+.icon {
+  padding-inline: 20px; }
+
+.footer-icons {
   color: inherit; }
+
+.html-bar {
+  background-color: #f1662a !important; }
+
+.css-bar {
+  background-color: #4a90c3 !important; }
+
+.sass-bar {
+  background-color: #cd6799 !important; }
+
+.js-bar {
+  background-color: #f7df1e !important; }
+
+.react-bar {
+  background-color: #45d8ff !important; }
+
+.bootstrap-bar {
+  background-color: #563d7c !important; }
+
+.node-bar {
+  background-color: #539e43 !important; }
+
+.python-bar {
+  background-color: #3775a8 !important; }
+
+.mongo-bar {
+  background-color: #49a649 !important; }
+
+.sql-bar {
+  background-color: #fdda43 !important; }
+
+.postgres-bar {
+  background-color: #336691 !important; }
