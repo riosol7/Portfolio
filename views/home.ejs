@@ -32,19 +32,19 @@
 
 <body>
 <!-- NAVIGATION -->
-<nav id='mainNav' class='navbar fixed-top navbar-expand-lg navbar-dark p-md-3'>
+<!-- <nav id='mainNav' class='navbar fixed-top navbar-expand-lg navbar-dark p-md-3'>
     <div class='container'>
         <div class='navbar-header'>
         </div>
         <button
-        type='button'
-        class='navbar-toggler'
-        data-bs-toggle='collapse'
-        data-bs-target='#toggleMenu'
-        aria-controls='toggleMenu'
-        aria-expanded='true'
-        aria-label='Toggle navigation'>
-        <span class='navbar-toggler-icon'></span>
+            type='button'
+            class='navbar-toggler'
+            data-bs-toggle='collapse'
+            data-bs-target='#toggleMenu'
+            aria-controls='toggleMenu'
+            aria-expanded='true'
+            aria-label='Toggle navigation'>
+            <span class='navbar-toggler-icon'></span>
         </button>
         <div class='collapse navbar-collapse' id='toggleMenu'>
             <ul class='navbar-nav ms-auto text-center'>
@@ -53,24 +53,34 @@
             </ul>
         </div>
     </div>
-</nav>
+</nav> -->
 <!-- HEADER -->
-<header style="background-image: url('https://www.hays.net.nz/documents/3173653/3735130/Image_Tech_Job_Software_Developer_LandingPage.jpg/072b7d8a-f0f2-2ec6-d640-590cf6c74e43?t=1619015548007'); background-size: cover; background-repeat: no-repeat;">
-    <div class='container'>
+<header class="banner">
+    <div class='container header-content'>
         <div class='row'>
-            <div class= 'col-md-8 mt-5 p-xxl-5'>
+            <div class= 'col-md-6'>
                 <div class='row'>
                     <div class='col'>
                         <div class='container'>
                         <h1 id='headerRio'class='mt-4'> Hi, im Rio</h1>
-                        <p id='aboutMe'class='mt-5 mb-5 p-5'> 
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, enim consequatur? Minima laborum vel dolore, tenetur illum veniam. Ut expedita recusandae eaque eum eligendi commodi distinctio accusantium cum non id.
+                        <p id='aboutMe'class='mt-5 mb-5'> 
+                            A creative and reliable music enthusiast turned into a software engineer with five years of customer service experience. Driven by growth, and turning ideas into reality.
                             <br/> <br/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat distinctio omnis unde, molestiae odit obcaecati reiciendis eveniet, earum ratione assumenda nesciunt ipsam. Cumque quae id quibusdam tenetur, unde accusamus deserunt!
+                            Born and raised in the San Fernando Valley. Started out as a producer and got a Bachelors’s degree in Music Industry Studies. With five years of customer service experience, I’ve built a mindset, solving a multitude of problems and  delivered customer satisfactory. I treasured the moments where I’ve worked alongside brilliant musicians and talents. From a string of ideas, mixing it all together and watching it come to life was something I strive for. I realized I wanted more opportunities of this and saw the similarities in software development. Suddenly, a new chapter arose with new concepts and unfamiliarity. The drive and passion in me fueled, which led me to where I am today.
                         </p>
                         </div>
                         <!-- RESUME -->
-                        <button id='resume-btn' type='button' class='btn btn-light mb-5 ml-5' data-toggle='modal' data-target='#resume'> <i class="fas fa-file"></i> resume </button>
+                        <button 
+                            id='resume-btn' 
+                            type='button' 
+                            class='btn btn-light mb-5 ml-5' 
+                            data-toggle='modal' 
+                            data-target='#resume'> 
+                                <i 
+                                    class="fas fa-file">
+                                </i> 
+                            resume 
+                        </button>
                         <div class='modal fade bd-example-modal-lg' id='resume' tabindex="-1" role='dialog' aria-labelledby="modal-title" aria-hidden="true">
                             <div class='modal-dialog modal-lg' role='document'>
                                 <div class="modal-content">
@@ -100,25 +110,25 @@
                                         <br/>
                                         <div class="container">
                                         <h5><i class="fas fa-laptop-code"></i> Software Experience </h5>
-                                        <h6>JS Racing Game: <i class="fas fa-user"></i> | HTML | CSS | Javascript</h6> 
+                                        <h6>Tap Race: <i class="fas fa-user"></i> | HTML | CSS | Javascript</h6> 
+                                            <ul>
+                                                <li> My first GA project using Javascript. I built a co-op game where users race against each other to the finish line. </li>
+                                                <li> Worked in crunch time and developed presentation skills, highlighting over my biggest challenges. </li>
+                                                <li> Learned and strengthen my knowledge on Javascript and CSS </li>
+                                            </ul>
+                                            <br/>
+                                            <h6>BookmarksBar: <i class="fas fa-users"></i> | HTML | CSS | Javascript | Nodejs | Express | Mongoose | HerokuApp</h6> 
                                             <ul>
                                                 <li> -summary of project- </li>
                                                 <li> -work accomplished- </li>
                                                 <li> -Impact of work- </li>
                                             </ul>
                                             <br/>
-                                            <h6>Full-Stack App: <i class="fas fa-users"></i> | HTML | CSS | Javascript | Nodejs | Express | Mongoose | herokuapp</h6> 
+                                            <h6>HomeChef: <i class="fas fa-user"></i> | HTML | SASS | Javascript | React | Nodejs | Express | MongoDB | HerokuApp </h6> 
                                             <ul>
-                                                <li> -summary of project- </li>
-                                                <li> -work accomplished- </li>
-                                                <li> -Impact of work- </li>
-                                            </ul>
-                                            <br/>
-                                            <h6>PROJECT 2</h6> 
-                                            <ul>
-                                                <li> -summary of project- </li>
-                                                <li> -work accomplished- </li>
-                                                <li> -Impact of work- </li>
+                                                <li> A food delivery app where any user can register and start their own business.</li>
+                                                <li> Developed a MERN Full-Stack app, created data-associated models and used ES6 & React 16+.  </li>
+                                                <li> Started to embellish the idea of when making an app, how can I make this more simpler than what is out there. And how can I also make it different. </li>
                                             </ul>
                                             <br/>
                                             <h5><i class="fas fa-briefcase"></i> Experience </h5>
@@ -150,161 +160,50 @@
                     </div> 
                 </div>
             </div>    
-            <div class='col-sm-4 mt-5 text-center'></div>
+            <div class='col-md-6 header-gif container'>
+                <img 
+                    src='../assets/jam.gif'
+                    style="
+                        max-width: 100%;
+                        max-height: 100%
+                    "    
+                />
+            </div>
         </div>
     </div>
 </header>
 <!-- WHAT I DO -->
 <section>
-    <div class='container'>
-        <div class='row mb-5'>
-            <h1 class='text-center mt-5'> What I Do </h1>
+    <div class='container whatIdo'>
+        <div class='row'>
+            <h1 class='text-center pt-2'> What I Do </h1>
             <p class='text-center mt-2'> Full-Stack Developer</p>
             <div class='col-md-6'>
-                <div class='container mt-5'>
-                    <div class="row">
-                        <div class="col mt-5">
-                        <h5>Proficiency: </h5>
-                            <!-- front-end stats -->
-                            <div class='row'>
-                                <div class="col-md-4">
-                                    <div class='mx-5 mt-2 btn-group dropstart shadow-0'>
-                                        <button type='button' class='btn btn-light dropdown-toggle' data-mdb-toggle="dropdown" aria-expanded='false' data-mdb-offset='10,20'> Front-End</button>
-                                        <ul class='dropdown-menu'>
-                                            <!-- html -->
-                                            <li> <span class="dropdown-item-text">html</span>
-                                                <a class='dropdown-item disabled'>
-                                                <div class='progress'> 
-                                                    <div class='progress-bar html-bar' role='progressbar' style='width: 75%;' aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> 
-                                                </div> 
-                                                </a>
-                                            </li>
-                                            <!-- css -->
-                                            <li> <span class="dropdown-item-text">css</span>
-                                                <a class='dropdown-item disabled'>
-                                                <div class='progress'> 
-                                                    <div class='progress-bar css-bar' role='progressbar' style='width: 75%;' aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> 
-                                                </div> 
-                                                </a>
-                                            </li>
-                                            <!-- sass -->
-                                            <li> <span class="dropdown-item-text">sass</span>
-                                                <a class='dropdown-item disabled'>
-                                                <div class='progress'> 
-                                                    <div class='progress-bar sass-bar' role='progressbar' style='width: 35%;' aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div> 
-                                                </div> 
-                                                </a>
-                                            </li>
-                                            <!-- js -->
-                                            <li> <span class="dropdown-item-text">javascript</span>
-                                                <a class='dropdown-item disabled'>
-                                                <div class='progress'> 
-                                                    <div class='progress-bar js-bar' role='progressbar' style='width: 55%;' aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div> 
-                                                </div> 
-                                                </a>
-                                            </li>
-                                            <!-- react -->
-                                            <li> <span class="dropdown-item-text">react</span>
-                                                <a class='dropdown-item disabled'>
-                                                <div class='progress'> 
-                                                    <div class='progress-bar react-bar' role='progressbar' style='width: 10%;' aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div> 
-                                                </div> 
-                                                </a>
-                                            </li>
-                                            <!-- bootstrap -->
-                                            <li> <span class="dropdown-item-text">bootstrap</span>
-                                                <a class='dropdown-item disabled'>
-                                                <div class='progress'> 
-                                                    <div class='progress-bar bootstrap-bar' role='progressbar' style='width: 75%;' aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> 
-                                                </div> 
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class='col-md-8 p-3'>
-                                    <div class='progress' style="height: 15px; border-radius: 50px;">
-                                        <div id='progress-lvl' class='progress-bar progress-bar-striped progress-bar-animated' role='progressbar' style='width: 60%' aria-value='60' aria-valuemin='0' aria-valuemax="100">60%</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- backend stats: -->
-                            <div class='row mt-5'>
-                                <div class="col-md-4">
-                                    <div class='mx-5 mt-2 btn-group dropstart shadow-0'>
-                                        <button type='button' class='btn btn-light dropdown-toggle' data-mdb-toggle="dropdown" aria-expanded='false' data-mdb-offset='-85,20'> Backend</button>
-                                        <ul class='dropdown-menu'>
-                                            <!-- node js -->
-                                            <li> <span class="dropdown-item-text">node js</span>
-                                                <a class='dropdown-item disabled'>
-                                                <div class='progress'> 
-                                                    <div class='progress-bar node-bar' role='progressbar' style='width: 55%;' aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div> 
-                                                </div> 
-                                                </a>
-                                            </li>
-                                            <!-- python -->
-                                            <li> <span class="dropdown-item-text">python</span>
-                                                <a class='dropdown-item disabled'>
-                                                <div class='progress'> 
-                                                    <div class='progress-bar python-bar' role='progressbar' style='width: 35%;' aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div> 
-                                                </div> 
-                                                </a>
-                                            </li>
-                                             <!-- mongo -->
-                                             <li> <span class="dropdown-item-text">mongoDB</span>
-                                                <a class='dropdown-item disabled'>
-                                                <div class='progress'> 
-                                                    <div class='progress-bar mongo-bar' role='progressbar' style='width: 40%;' aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div> 
-                                                </div> 
-                                                </a>
-                                            </li>
-                                            <!-- sql -->
-                                            <li> <span class="dropdown-item-text">sql</span>
-                                                <a class='dropdown-item disabled'>
-                                                <div class='progress'> 
-                                                    <div class='progress-bar sql-bar' role='progressbar' style='width: 45%;' aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div> 
-                                                </div> 
-                                                </a>
-                                            </li>
-                                            <!-- postgres -->
-                                            <li> <span class="dropdown-item-text">postgreSQL</span>
-                                                <a class='dropdown-item disabled'>
-                                                <div class='progress'> 
-                                                    <div class='progress-bar postgres-bar' role='progressbar' style='width: 5%;' aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div> 
-                                                </div> 
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class='col-md-8 p-3'>
-                                    <div class='progress' style="height: 15px; border-radius: 50px;">
-                                        <div id='progress-lvl' class='progress-bar progress-bar-striped progress-bar-animated' role='progressbar' style='width: 40%' aria-value='40' aria-valuemin='0' aria-valuemax="100">40%</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class='container'>  
+                        <img
+                            src='../assets/programmer.gif'
+                            class='gif'
+                        />
                 </div>
             </div>
             <!-- icons -->
             <div class='col-md-6'>
                 <div id='icons' class='d-flex justify-content-center flex-wrap mt-5 mx-3 p-5'>
-                    <div id='html5' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="html" class='icon fa-stack fa-2x rounded-circle shadow mb-5 mx-2 d-flex align-content-center'><i class="iconify fa-stack fa-4x mt-2" style='font-size: 24px;' data-icon="vscode-icons:file-type-html"></i></div>
-                    <div id='css3' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="css" class='icon fa-stack fa-2x rounded-circle shadow mb-5 mx-2 d-flex align-content-center'><i class="iconify fa-stack fa-4x mt-2" style='font-size: 24px;'data-icon="vscode-icons:file-type-css"></i></div>
-                    <div id='sass' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="sass" class='icon fa-stack fa-2x rounded-circle shadow mb-5 mx-2 d-flex align-content-center'><i class="iconify fa-stack fa-4x mt-2" style='font-size: 24px;' data-icon="logos:sass"></i></div>
-                    <div id='js' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="javaScript" class='icon fa-stack fa-2x rounded-circle shadow mb-5 mx-2 d-flex align-content-center'><i class="iconify fa-stack fa-4x mt-2" style='font-size: 24px;' data-icon="logos:javascript"></i></div>
-                    <div id='nodejs' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="node js" class='icon fa-stack fa-2x rounded-circle shadow mb-5 mx-2 d-flex align-content-center'><i class="iconify fa-stack fa-4x mt-2" style='font-size: 24px;' data-icon="logos:nodejs-icon"></i></div>      
-                    <div id='react' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="react" class='icon fa-stack fa-2x rounded-circle shadow mb-5 mx-2 d-flex align-content-center'><i class="iconify fa-stack fa-4x mt-2" style='font-size: 24px;' data-icon="logos:react"></i></div>
-                    <div id='aws' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="amazon web services" class='icon fa-stack fa-2x rounded-circle shadow mb-5 mx-2 d-flex align-content-center'><i class="iconify fa-stack fa-4x mt-2" style='font-size: 24px;' data-icon="logos:aws"></i></div>
-                    <div id='python' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="python" class='icon fa-stack fa-2x rounded-circle shadow mb-5 mx-2 d-flex align-content-center'><i class="iconify fa-stack fa-4x mt-2" style='font-size: 24px;' data-icon="logos:python"></i></div>
-                    <div id='git' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="git" class='icon fa-stack fa-2x rounded-circle shadow mb-5 mx-2 d-flex align-content-center'><i class="iconify fa-stack fa-4x mt-2" style='font-size: 24px;' data-icon="logos:git-icon"></i></div>
-                    <div id='npm' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="node package manager" class='icon fa-stack fa-2x rounded-circle shadow mb-5 mx-2 d-flex align-content-center'><i class="iconify fa-stack fa-4x mt-2" style='font-size: 24px;' data-icon="vscode-icons:file-type-npm"></i></div>
-                    <div id='bootstrap' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="bootstrap" class='icon fa-stack fa-2x rounded-circle shadow mb-5 mx-2 d-flex align-content-center'><i class="iconify fa-stack fa-4x mt-2" style='font-size: 24px;' data-icon="logos:bootstrap"></i></div>
-                    <div id='mongoDB' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="mongoDB" class='icon fa-stack fa-2x rounded-circle shadow mb-5 mx-2 d-flex align-content-center'><i class="iconify fa-stack fa-4x mt-2" style='font-size: 24px;' data-icon="vscode-icons:file-type-mongo"></i></div>
-                    <div id='sql' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="sql" class='icon fa-stack fa-2x rounded-circle shadow mb-5 mx-2 d-flex align-content-center'><i class="iconify fa-stack fa-4x mt-2" style='font-size: 24px;' data-icon="vscode-icons:file-type-sql"></i></div>
-                    <div id='postSQL' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="postgreSQL" class='icon fa-stack fa-2x rounded-circle shadow mb-5 mx-2 d-flex align-content-center'><i class="iconify fa-stack fa-4x mt-2" style='font-size: 24px;' data-icon="vscode-icons:file-type-pgsql"></i></div>
-                    <div id='stack' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="stack overflow" class='icon fa-stack fa-2x rounded-circle shadow mb-5 mx-2 d-flex align-content-center'><i class="iconify fa-stack fa-4x mt-2" style='font-size: 24px;' data-icon="logos:stackoverflow-icon"></i></div>
+                    <div id='html5' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="html" class='icon fa-stack fa-2x rounded-circle shadow mx-2 mb-5 d-flex align-items-center justify-content-center'><i class="iconify fa-stack" style='font-size: 24px;' data-icon="vscode-icons:file-type-html"></i></div>
+                    <div id='css3' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="css" class='icon fa-stack fa-2x rounded-circle shadow mx-2 mb-5 d-flex align-items-center justify-content-center'><i class="iconify fa-stack" style='font-size: 24px;'data-icon="vscode-icons:file-type-css"></i></div>
+                    <div id='sass' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="sass" class='icon fa-stack fa-2x rounded-circle shadow mx-2 mb-5 d-flex align-items-center justify-content-center'><i class="iconify fa-stack" style='font-size: 24px;' data-icon="logos:sass"></i></div>
+                    <div id='js' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="javascript" class='icon fa-stack fa-2x rounded-circle shadow mx-2 mb-5 d-flex align-items-center justify-content-center'><i class="iconify fa-stack" style='font-size: 24px;' data-icon="logos:javascript"></i></div>
+                    <div id='nodejs' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="node js" class='icon fa-stack fa-2x rounded-circle shadow mx-2 mb-5 d-flex align-items-center justify-content-center'><i class="iconify fa-stack" style='font-size: 24px;' data-icon="logos:nodejs-icon"></i></div>      
+                    <div id='react' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="react" class='icon fa-stack fa-2x rounded-circle shadow mx-2 mb-5 d-flex align-items-center justify-content-center'><i class="iconify fa-stack" style='font-size: 24px;' data-icon="logos:react"></i></div>
+                    <div id='aws' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="amazon web services" class='icon fa-stack fa-2x rounded-circle shadow mx-2 mb-5 d-flex align-items-center justify-content-center'><i class="iconify fa-stack" style='font-size: 24px;' data-icon="logos:aws"></i></div>
+                    <div id='python' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="python" class='icon fa-stack fa-2x rounded-circle shadow mx-2 mb-5 d-flex align-items-center justify-content-center'><i class="iconify fa-stack" style='font-size: 24px;' data-icon="logos:python"></i></div>
+                    <div id='git' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="git" class='icon fa-stack fa-2x rounded-circle shadow mx-2 mb-5 d-flex align-items-center justify-content-center'><i class="iconify fa-stack" style='font-size: 24px;' data-icon="logos:git-icon"></i></div>
+                    <div id='npm' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="node package manager" class='icon fa-stack fa-2x rounded-circle shadow mx-2 mb-5 d-flex align-items-center justify-content-center'><i class="iconify fa-stack" style='font-size: 24px;' data-icon="vscode-icons:file-type-npm"></i></div>
+                    <div id='bootstrap' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="bootstrap" class='icon fa-stack fa-2x rounded-circle shadow mx-2 mb-5 d-flex align-items-center justify-content-center'><i class="iconify fa-stack" style='font-size: 24px;' data-icon="logos:bootstrap"></i></div>
+                    <div id='mongoDB' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="mongoDB" class='icon fa-stack fa-2x rounded-circle shadow mx-2 mb-5 d-flex align-items-center justify-content-center'><i class="iconify fa-stack" style='font-size: 24px;' data-icon="vscode-icons:file-type-mongo"></i></div>
+                    <div id='sql' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="sql" class='icon fa-stack fa-2x rounded-circle shadow mx-2 mb-5 d-flex align-items-center justify-content-center'><i class="iconify fa-stack" style='font-size: 24px;' data-icon="vscode-icons:file-type-sql"></i></div>
+                    <div id='postSQL' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="postgreSQL" class='icon fa-stack fa-2x rounded-circle shadow mx-2 mb-5 d-flex align-items-center justify-content-center'><i class="iconify fa-stack" style='font-size: 24px;' data-icon="vscode-icons:file-type-pgsql"></i></div>
+                    <div id='stack' data-mdb-toggle='tooltip' data-mdb-placement='bottom' data-html="true" title="stack overflow" class='icon fa-stack fa-2x rounded-circle shadow mx-2 mb-5 d-flex align-items-center justify-content-center'><i class="iconify fa-stack" style='font-size: 24px;' data-icon="logos:stackoverflow-icon"></i></div>
                 </div>
             </div>
         </div>
@@ -313,47 +212,370 @@
 <hr>
 <!-- PROJECTS -->
 <section class='projects'>
-    <div class="container mt-5 mb-5 p-5">
+    <div class="container p-3">
         <div class='p-2 mb-4'><i class="fas fa-laptop-code fa-4x"></i> <h2 class='d-inline m-2'> Projects</h2></div>
-        <div class='card-deck mb-5'>
-            <!-- Bookmarks Bar -->
-            <div id='bBar' class="container card shadow" style="width: 20rem;">
-                <div class='card-body'>
-                <h5 class="card-title"> Bookmarks Bar</h5>
-                <p class='card-text'> quick example of the project's content.</p>
-                    <div class='row'>
-                        <div class='col-6'>
-                            <a style='color:#343a40' href="https://github.com/jmalabed/project1/tree/jared1"> <i class="fab fa-github fa-2x"></i></a>
-                        </div>
-                        <div class='col-6 text-right'>
-                            <a id='demo-btn' class='btn btn-outline-secondary' href="https://damp-gorge-54237.herokuapp.com/">DEMO</a>
+        <div class="row pt-3">
+            <div class="col-lg-6">
+                <!-- <div class='card-deck pt-3'> -->
+                    <!-- Bookmarks Bar -->
+                    <div id='bBar' class="container card shadow mb-3 mt-3" style="width: 20rem;">
+                        <div class='card-body'>
+                        <h5 class="card-title"> Bookmarks Bar</h5>
+                        <p class='card-text'>Academic resource site</p>
+                            <div class='row'>
+                                <div class='col-6'>
+                                    <a style='color:#343a40' href="https://github.com/jmalabed/project1/tree/jared1"> <i class="fab fa-github fa-2x"></i></a>
+                                </div>
+                                <div class='col-6 text-right'>
+                                    <!-- Button trigger modal -->
+                                    <button
+                                        type="button"
+                                        class="btn btn-info"
+                                        data-mdb-toggle="modal"
+                                        data-mdb-target="#barModal"
+                                        >
+                                        <span 
+                                            class="iconify" 
+                                            data-icon="clarity:help-info-line"
+                                            style='font-size:1.4rem'>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <!-- Modal -->
+                    <div
+                        class="modal fade"
+                        id="barModal"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                    >
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Bookmarks Bar</h5>
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-mdb-dismiss="modal"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <div class="row pt-3 pb-5">
+                                            <div class="col-md-6">
+                                                <img
+                                                    src='../assets/Bookmarks.png'
+                                                    class='gif'
+                                                />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="row">
+                                                    <h6>Technologies:</h6>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="vscode-icons:file-type-html"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="vscode-icons:file-type-css"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="logos:javascript"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="logos:nodejs-icon"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="vscode-icons:file-type-mongo"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="simple-icons:express"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="logos:heroku-icon"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="logos:bootstrap"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="row pt-4">
+                                                    <h6><i class="fas fa-users"></i> Project:</h6>
+                                                    <p>An academic resource hub that organizes docs for quick and easy access. Project was made by and for GA students</p>
+                                                </div>
+                                                <div class="row pt-4">
+                                                    <h6><i class="fas fa-user"></i> Role:</h6>
+                                                    <p>Initialize models and routes. Created layouts for topics, blog, login/logout pages. Used Bootstrap for creating a responsive navbar</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">      
+                                    <a 
+                                        id='demo-btn' 
+                                        class='btn btn-outline-secondary' 
+                                        href="https://damp-gorge-54237.herokuapp.com/"
+                                        >
+                                        DEMO
+                                    </a>
+                                    <a 
+                                        class='btn btn-outline-info' 
+                                        href="https://github.com/jmalabed/project1/tree/jared1"
+                                        > 
+                                        CODE
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Comic Collector -->
+                    <div id='comicCollector' class="container card shadow mb-3 mt-3" style="width: 20rem;">
+                        <div class='card-body'>
+                            <h5 class="card-title">Comic Collector</h5>
+                            <p class='card-text'> Django collector</p>
+                            <div class='row'>
+                                <div class='col-6'>
+                                    <a style='color:#343a40' href="https://github.com/riosol7/comiccollector07"> <i class="fab fa-github fa-2x"></i></a>
+                                </div>
+                                <div class='col-6 text-right'>
+                                    <!-- Button trigger modal -->
+                                    <button
+                                        type="button"
+                                        class="btn btn-info"
+                                        data-mdb-toggle="modal"
+                                        data-mdb-target="#comicModal"
+                                        >
+                                        <span 
+                                            class="iconify" 
+                                            data-icon="clarity:help-info-line"
+                                            style='font-size:1.4rem'>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div
+                        class="modal fade"
+                        id="comicModal"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                    >
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Comic Collector</h5>
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-mdb-dismiss="modal"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <div class="row pt-3 pb-5">
+                                            <div class="col-md-6">
+                                                <img
+                                                    src='../assets/comic.png'
+                                                    class='gif'
+                                                />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="row">
+                                                    <h6>Technologies:</h6>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="vscode-icons:file-type-html"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="vscode-icons:file-type-css"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="logos:python"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="vscode-icons:file-type-django"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="logos:aws"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="vscode-icons:file-type-pgsql"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="logos:heroku-icon"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="logos:bootstrap"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="row pt-4">
+                                                    <h6><i class="fas fa-user"></i> Freelance:</h6>
+                                                    <p>
+                                                        Solo concept where users can create a profile and collect comics. Along with data-association models. Funko Pops can be refer to a particular comic. Image upload with Amazon Web Services.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">      
+                                    <a 
+                                        id='demo-btn' 
+                                        class='btn btn-outline-secondary' 
+                                        href="https://comiccollector07.herokuapp.com/"
+                                        >
+                                        DEMO
+                                    </a>
+                                    <a 
+                                        class='btn btn-outline-info' 
+                                        href="https://github.com/riosol7/comiccollector07"
+                                        > 
+                                        CODE
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- HomeChef -->
+                    <div id='project2' class="container card shadow mb-3 mt-3" style="width: 20rem;">
+                        <div class='card-body'>
+                            <h5 class="card-title"> Home Chef</h5>
+                            <p class='card-text'> Food Delivery App</p>
+                            <div class='row'>
+                                <div class='col-6'>
+                                    <a style='color:#343a40' href="https://github.com/riosol7/HomeChef-FE"> <i class="fab fa-github fa-2x"></i></a>
+                                </div>
+                                <div class='col-6 text-right'>
+                                    <!-- Button trigger modal -->
+                                    <button
+                                        type="button"
+                                        class="btn btn-info"
+                                        data-mdb-toggle="modal"
+                                        data-mdb-target="#chefModal"
+                                        >
+                                        <span 
+                                            class="iconify" 
+                                            data-icon="clarity:help-info-line"
+                                            style='font-size:1.4rem'>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div
+                        class="modal fade"
+                        id="chefModal"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                    >
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Home Chef</h5>
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-mdb-dismiss="modal"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <div class="row pt-3 pb-5">
+                                            <div class="col-md-6">
+                                                <img
+                                                    src='../assets/chef.png'
+                                                    class='gif'
+                                                />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="row">
+                                                    <h6>Technologies:</h6>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="vscode-icons:file-type-html"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="logos:sass"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="logos:javascript"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="logos:react"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="logos:nodejs-icon"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="vscode-icons:file-type-mongo"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="simple-icons:express"></i>
+                                                    </div>
+                                                    <div class="col-sm-1 mx-1">
+                                                        <i class="iconify fa-stack" data-icon="logos:bootstrap"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="row pt-4">
+                                                    <h6><i class="fas fa-user"></i> Freelance:</h6>
+                                                    <p>
+                                                        A food delivery app. Providing a platform for users who want to start their own business, or perhaps just want to grab a bite from their local chef. 
+                                                    </p>
+                                                    <p>
+                                                        NOTE: WIP (work in progress)
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">      
+                                    <!-- <a 
+                                        id='demo-btn' 
+                                        class='btn btn-outline-secondary' 
+                                        href="https://comiccollector07.herokuapp.com/"
+                                        >
+                                        DEMO
+                                    </a> -->
+                                    <a 
+                                        class='btn btn-outline-info' 
+                                        href=" https://github.com/riosol7/HomeChef-BE"
+                                        > 
+                                        BE CODE
+                                    </a>
+                                    <a 
+                                        class='btn btn-outline-info' 
+                                        href="https://github.com/riosol7/HomeChef-FE"
+                                        > 
+                                        FE CODE
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                <!-- </div> -->
             </div>
-            <!-- tapRace -->
-            <div id='tapRace' class="container card shadow" style="width: 20rem;">
-                <div class='card-body'>
-                <h5 class="card-title"> Tap Race</h5>
-                <p class='card-text'> quick example of the project's content.</p>
-                <a style='color:#343a40' href="/"> <i class="fab fa-github fa-2x"></i></a>
-                </div>
-            </div> 
-            <!-- Project 2 -->
-            <div id='project2' class="container card shadow" style="width: 20rem;">
-                <div class='card-body'>
-                <h5 class="card-title"> Project 2</h5>
-                <p class='card-text'> quick example of the project's content.</p>
-                <a style='color:#343a40' href="/"> <i class="fab fa-github fa-2x"></i></a>
-                </div>
-            </div>    
+            <div class="col-lg-6 d-flex justify-content-center pt-3">     
+                <img
+                    src='../assets/config.gif'
+                    class="gif"
+                />
+            </div>
         </div>
     </div>
 </section>
 <!-- CONTACT ME -->
 <footer>
-    <div class='container'>
-        <div class="row">
+    <div class='container pt-3'>
+        <div class="row pb-3">
             <div class='col-sm-8'>
                 <div class='container mt-5'>
                 <h3 id='contactMe' class="animate__animated animate__bounce"><i class="mt-3 far fa-address-book fa-2x"></i> Contact Me!</h3> 
@@ -372,7 +594,7 @@
                 <div class='d-flex justify-content-center container mt-3 mb-5 p-5'>
                     <div class='bg-image hover-overlay ripple shadow-1-strong rounded-circle' data-mdb-ripple-color='light'>
                     <img class='rounded-circle img-thumbnail' style='height: 200px; width: 200px;' src='https://i.imgur.com/iV56nfQ.jpg?1'> 
-                    <div class="mask" style='background: linear-gradient(45deg,rgba(29, 236, 197, 0.5), rgba(91,14,214,0.5) 68%);'></div>      
+                    <div class="mask" style='background: linear-gradient(45deg,rgba(29, 236, 197, 0.5), rgba(214, 205, 109, 0.59) 68%);'></div>      
                     </div>
                 </div>
             </div>
@@ -432,98 +654,98 @@ sr.reveal('#html5', {
 });
 sr.reveal('#css3', {
     duration: 2000,
-    delay:200,
+    delay:100,
     distance:'10px',
     origin: 'bottom',
     viewFactor:0.2,
 });
 sr.reveal('#sass', {
     duration: 2000,
-    delay:400,
+    delay:200,
     distance:'10px',
     origin: 'bottom',
     viewFactor:0.2,
 });
 sr.reveal('#js', {
     duration: 2000,
-    delay:600,
+    delay:300,
     distance:'10px',
     origin: 'bottom',
     viewFactor:0.2,
 });
 sr.reveal('#nodejs', {
     duration: 2000,
-    delay:800,
+    delay:400,
     distance:'10px',
     origin: 'bottom',
     viewFactor:0.2,
 });
 sr.reveal('#react', {
     duration: 2000,
-    delay:1000,
+    delay:500,
     distance:'10px',
     origin: 'bottom',
     viewFactor:0.2,
 });
 sr.reveal('#aws', {
     duration: 2000,
-    delay:1200,
+    delay:600,
     distance:'10px',
     origin: 'bottom',
     viewFactor:0.2,
 });
 sr.reveal('#python', {
     duration: 2000,
-    delay:1400, 
+    delay:700, 
     distance:'10px',
     origin: 'bottom',
     viewFactor:0.2,
 });
 sr.reveal('#git', {
     duration: 2000,
-    delay:1600,
+    delay:800,
     distance:'10px',
     origin: 'bottom',
     viewFactor:0.2,
 });
 sr.reveal('#npm', {
     duration: 2000,
-    delay:1800,
+    delay:900,
     distance:'10px',
     origin: 'bottom',
     viewFactor:0.2,
 });
 sr.reveal('#bootstrap', {
     duration: 2000,
-    delay:1900,
+    delay:1000,
     distance:'10px',
     origin: 'bottom',
     viewFactor:0.2,
 });
 sr.reveal('#mongoDB', {
     duration: 2000,
-    delay:2000,
+    delay:1100,
     distance:'10px',
     origin: 'bottom',
     viewFactor:0.2,
 });
 sr.reveal('#sql', {
     duration: 2000,
-    delay:2100,
+    delay:1200,
     distance:'10px',
     origin: 'bottom',
     viewFactor:0.2,
 });
 sr.reveal('#postSQL', {
     duration: 2000,
-    delay:2200,
+    delay:1300,
     distance:'10px',
     origin: 'bottom',
     viewFactor:0.2,
 });
 sr.reveal('#stack', {
     duration: 2000,
-    delay:2300,
+    delay:1400,
     distance:'10px',
     origin: 'bottom',
     viewFactor:0.2,
@@ -536,7 +758,7 @@ sr.reveal('#bBar', {
     origin:'bottom',
     viewFactor:0.2,
 });
-sr.reveal('#tapRace', {
+sr.reveal('#comicCollector', {
     duration: 2000,
     delay:250,
     distance:'20px',
