@@ -18,6 +18,8 @@ $stackColor:#f48024;
 //banner colors:
 $pink-custom:#df4b9f;
 $bannerColor:#fcce73;
+$topBanner: linear-gradient(to bottom left, #fcce73 50%, white 50%);
+ 
 $resume-btn:#505050;
 $bannerText: #010230;
 
@@ -27,7 +29,6 @@ $bannerText: #010230;
 }
 
 //NAVBAR
-
 .navbar-custom{
     background-color: $bannerColor !important;
 }
@@ -38,19 +39,11 @@ header {
 
 .banner{
     background: $bannerColor;
-}
-
-.header-content{
-    padding-top: 80px;
-    padding-bottom: 200px;
+    height:100vh;
 }
 
 #aboutMe{
     font-weight: 450;
-}
-
-.header-gif{
-    padding-top: 180px;
 }
 
 //RESUME
@@ -63,10 +56,15 @@ header {
 #resume-body{
     color:black;
 }
+
+// .cross{
+//     background: $topBanner;
+//     padding:6.5rem;
+// }
+
 //WHAT I DO
 .whatIdo{
-    padding-top: 60px;
-    padding-bottom: 180px;
+    height: 100vh;
 }
 
 .icon{
@@ -108,8 +106,7 @@ header {
 
 //PROJECTS
 .projects{
-    padding-top: 60px;
-    padding-bottom: 190px;
+    height: 100vh;
 }
 
 .card-title{

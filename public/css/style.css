@@ -9,17 +9,11 @@ header {
   color: #010230; }
 
 .banner {
-  background: #fcce73; }
-
-.header-content {
-  padding-top: 80px;
-  padding-bottom: 200px; }
+  background: #fcce73;
+  height: 100vh; }
 
 #aboutMe {
   font-weight: 450; }
-
-.header-gif {
-  padding-top: 180px; }
 
 #resume-btn {
   color: #ed2424; }
@@ -31,8 +25,7 @@ header {
   color: black; }
 
 .whatIdo {
-  padding-top: 60px;
-  padding-bottom: 180px; }
+  height: 100vh; }
 
 .icon {
   padding-inline: 20px; }
@@ -71,8 +64,7 @@ header {
   background-color: #336691 !important; }
 
 .projects {
-  padding-top: 60px;
-  padding-bottom: 190px; }
+  height: 100vh; }
 
 .card-title {
   color: #d32273; }
