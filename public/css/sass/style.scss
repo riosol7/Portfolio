@@ -39,7 +39,7 @@ header {
 
 .banner{
     background: $bannerColor;
-    height:100vh;
+    padding-bottom: 13rem;
 }
 
 #aboutMe{
@@ -57,14 +57,9 @@ header {
     color:black;
 }
 
-// .cross{
-//     background: $topBanner;
-//     padding:6.5rem;
-// }
-
 //WHAT I DO
 .whatIdo{
-    height: 100vh;
+    padding-bottom: 10rem;
 }
 
 .icon{
@@ -106,12 +101,12 @@ header {
 
 //PROJECTS
 .projects{
-    height: 100vh;
+    padding-bottom: 10rem;
 }
 
-#projectGif{
-    width: 100%;
-}
+// #projectGif{
+//     width: 100%;
+// }
 
 .card-title{
     color:#d32273;
